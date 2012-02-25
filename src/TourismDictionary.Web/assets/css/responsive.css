@@ -1,0 +1,26 @@
+﻿@media (max-width: 480px) 
+{
+    .input-search-fluid{width:70%;}
+}
+
+@media (min-width: 481px) and (max-width: 767px) 
+{
+    .input-search-fluid{width:76.3%;}
+}
+
+@media (max-width: 767px) 
+{
+}
+
+@media (min-width: 768px) and (max-width: 979px) 
+{
+    .input-search-fluid{width:86.3%;}
+}
+
+@media (max-width: 979px) 
+{
+}
+
+@media (min-width: 980px)  
+{
+}

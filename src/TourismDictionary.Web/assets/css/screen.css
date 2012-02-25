@@ -1,0 +1,18 @@
+﻿body {
+    
+    padding-top: 30px; /* 60px to make the container go all the way to the bottom of the topbar */
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    /*font-size: .85em;
+    color: #232323;
+    background-color: #fff;*/
+}​
+
+/*--mvc-validation--*/
+.field-validation-error{color:#ff0000;}
+.field-validation-valid{display: none;}
+.validation-summary-errors{background-color:#ffffcc;padding:15px 20px 15px 10px;border: solid 1px #cc0000;font-weight: bold;margin: 20px 0px 20px 0px;border-radius:4px;-moz-border-radius:4px;}
+.validation-summary-errors ul {padding:0;margin:0 0 0 10px;}
+.validation-summary-errors li {display:block;background: url('icons/exclamation16x16.png') no-repeat 0px 50%;padding: 5px 0px 5px 25px;font-weight:normal;}
+.validation-summary-valid{display:none;}
+.field-validation-error,span.input-validation-error{color: #cc0000;}
+input.input-validation-error,textarea.input-validation-error,select.input-validation-error{border: 1px solid #cc0000;background-color: #ffffcc;}

@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@section scripts { 
+<script>
+    (function () {
+        $(function () {
+
+            $('.typeahead').typeahead({
+                source: ["tugberk", "ugurlu", "tugberk2"]
+            });
+        });
+    })();
+</script>
+}
+
+<div class="hero-unit">
+    <h1>Tourism Dictionary</h1>
+    <p>
+        Find all you need about tourism...
+    </p>
+</div>
+
+@using (Html.BeginForm("", "", FormMethod.Post, new { @class = "well form-search" })) {
+    <input type="text" class="input-search-fluid typeahead" data-provide="typeahead">
+    <button type="submit" class="btn"><i class="icon-search"></i> Search</button>
+}
